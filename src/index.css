@@ -17,3 +17,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form .row {
+  @apply flex w-full justify-between;
+}
+
+form label {
+  @apply mt-6
+}
+
+form .column:first-child {
+  @apply pr-4;
+}
+
+form .column {
+  @apply w-full flex flex-col;
+}
+
+form input, select, textarea {
+  @apply border rounded px-2 py-2;
+}
