@@ -27,7 +27,7 @@ form label {
 }
 
 form .column:first-child {
-  @apply pr-4;
+  @apply sm:pr-4;
 }
 
 form .column {
@@ -36,4 +36,8 @@ form .column {
 
 form input, select, textarea {
   @apply border rounded px-2 py-2;
+}
+
+form .row {
+  @apply flex flex-col sm:flex-row
 }
