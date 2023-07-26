@@ -13,7 +13,7 @@ function App() {
       </section>
       <section
         id="form"
-        className="flex flex-col bg-white lg:w-2/5 py-8 rounded-md shadow-md"
+        className="flex flex-col bg-white w-4/5 lg:w-3/4 py-8 rounded-md shadow-md"
       >
         <form className="flex flex-col justify-center items-center w-full px-8">
           <div className="row">
