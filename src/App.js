@@ -9,11 +9,11 @@ function App() {
         className="flex flex-col justify-center items-center my-8"
       >
         <img src={logo} className="App-logo" alt="logo" width={150} />
-        <h1 className="text-3xl my-4">Volunteer Application Form</h1>
+        <h1 className="text-3xl my-4 text-center">Volunteer Application Form</h1>
       </section>
       <section
         id="form"
-        className="flex flex-col bg-white w-2/5 py-8 rounded-md shadow-md"
+        className="flex flex-col bg-white lg:w-2/5 py-8 rounded-md shadow-md"
       >
         <form className="flex flex-col justify-center items-center w-full px-8">
           <div className="row">
