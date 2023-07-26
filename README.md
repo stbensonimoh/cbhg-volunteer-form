@@ -8,7 +8,7 @@
 This is a volunteer application form for CBHG.
 
 ## Getting Started
-This project is built using `React.js` for the frontend and uses `Netlify functions` for the API. Itrequires Netlify CLI and Node.js version 14 or later.
+This project is built using `React.js` for the frontend and uses `Netlify functions` for the API. It requires Netlify CLI and Node.js version 14 or later.
 
 Installing the CLI globally provides access to the `netlify` command. To install, run the following command from any directory in your terminal:
 
@@ -30,7 +30,7 @@ In the project directory, you can run the following scripts:
 netlify dev
 ```
 
- This runs the app in the development mode. It opens http://localhost:3000 in the browser and automatically reloads the page when changes are made. You can also see any lint errors in the console.
+ This runs the app in the development mode. It opens the app in the browser and automatically reloads the page when changes are made. You can also see any lint errors in the console.
 
 ```bash
 npm test
